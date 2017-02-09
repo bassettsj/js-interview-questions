@@ -1,0 +1,22 @@
+{
+  "name": "js-interview-questions",
+  "version": "1.0.0",
+  "description": "A collection of JS interview questions I have gotten over the last few years.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape */test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bassettsj/js-interview-questions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bassettsj/js-interview-questions/issues"
+  },
+  "homepage": "https://github.com/bassettsj/js-interview-questions#readme",
+  "devDependencies": {
+    "tape": "^4.6.3"
+  }
+}
