@@ -57,10 +57,5 @@ test('debounce', (t) => {
     fn();
     t.equal(calls, 1);
     fn();
-    fn();
     t.equal(calls, 1);
-    setTimeout(() => {
-        fn();
-        t.equal(calls, 2);
-    }, 1);
 });
